@@ -1,0 +1,77 @@
+// Typography
+$rounded: "museo-sans-rounded", "Helvetica Neue", Arial, sans-serif;
+$logotype: "jaf-mashine-rounded", $rounded;
+$sans-serif: $helvetica;
+$serif: $georgia;
+$base-font-family: $rounded;
+$header-font-family: $base-font-family;
+$h1-font-family: $logotype;
+
+// Font Sizes
+$base-font-size: 1em;
+$h1-font-size: $base-font-size * 2.25;
+$h2-font-size: $base-font-size * 2;
+$h3-font-size: $base-font-size * 1.75;
+$h4-font-size: $base-font-size * 1.5;
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size;
+
+// Line height
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+
+// Other Sizes
+$base-border-radius: 5px;
+$base-spacing: $base-line-height * 1em;
+$base-z-index: 0;
+
+// Colors
+$blue: #3C73E7;
+$dark-gray: #555;
+$green: #107C12;
+$medium-gray: #999;
+$light-gray: #DDD;
+$light-red: #FBE3E4;
+$light-yellow: #FFF6BF;
+$light-green: #E6EFC2;
+$red: #E74C3C;
+$yellow: #BF8A18;
+
+// Background Color
+$base-background-color: white;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$base-accent-color: $red;
+
+// Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: darken($base-accent-color, 15);
+$base-button-color: $base-link-color;
+$hover-button-color: $hover-link-color;
+
+// Flash Colors
+$alert-color: $light-yellow;
+$error-color: $light-red;
+$notice-color: lighten($base-accent-color, 40);
+$success-color: $light-green;
+
+// Border color
+$base-border-color: lighten($blue, 40);
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$form-border-color: $base-border-color;
+$form-border-color-hover: darken($base-border-color, 10);
+$form-border-color-focus: $base-accent-color;
+$form-border-radius: $base-border-radius;
+$form-box-shadow: inset 0 1px 3px rgba(black,0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+$form-font-size: $base-font-size;
+$form-font-family: $base-font-family;
+
+//Images
+$header-red: $red url("../img/Destiny-HeaderR.jpg") right 15% no-repeat;
+$header-blue: $blue url("../img/Destiny-Header.jpg") right top no-repeat;
+$header-green: $green url("../img/Destiny-HeaderG.jpg") right 15% no-repeat;
+$header-yellow: $yellow url("../img/Destiny-HeaderY.jpg") right 15% no-repeat;
