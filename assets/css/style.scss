@@ -54,6 +54,7 @@ body {
 		}
 
 		img {
+			max-height: .6em;
 			max-width: .8em;
 		}
 
@@ -66,6 +67,11 @@ body {
 
 main {
 	.full {
+		background: $header-general;
+		background-size: cover;
+	}
+
+	&.game .full {
 		background: $header-blue;
 		background-size: cover;
 	}
